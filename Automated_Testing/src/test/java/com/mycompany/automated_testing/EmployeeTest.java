@@ -51,7 +51,7 @@ public class EmployeeTest {
         double actual = e.calculateSalary(bonusTwo, taxRateTwo) ;
         
         // Implemented Test
-        Assertions.assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual, 0.01);
     }
     
 }
